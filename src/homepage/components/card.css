@@ -1,0 +1,109 @@
+/* General card styling */
+.Card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .Card:hover {
+    transform: scale(1.02);
+  }
+
+  .CardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .CardTitle {
+    color: var(--muted-foreground);
+    font-size: 1rem;
+  }
+  
+  .CardContent {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .CardFooter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  /* Priority and status indicators */
+  .CardPriority {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+  }
+  .PriorityIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .StatusIcon {
+    margin-top: 2px;
+  }
+  
+  .CardStatus {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 4px;
+    gap: 4px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    text-transform: capitalize;
+  }
+  
+  .CardTagDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .CardTagName {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* User circle */
+  .UserCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+  }
+  
+  .AvailableDot {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #28a745; /* Green color for available */
+  }
+  
+  .AvailableDot[data-available="false"] {
+    background-color: #dc3545; /* Red color for unavailable */
+  }
+  

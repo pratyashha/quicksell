@@ -1,0 +1,17 @@
+.ColumnHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.ColumnName {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.ColumnMenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
