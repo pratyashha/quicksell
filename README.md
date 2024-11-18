@@ -8,6 +8,12 @@ An interactive **Kanban board application** built using **ReactJS** that dynamic
 
 ---
 
+## **Hosting**
+The project is hosted and accessible at:
+[**Quicksell Kanban Board Live Demo**](https://quicksell-tawny.vercel.app/)
+
+---
+
 ## **Features**
 1. **Dynamic Grouping:**
    - **By Status**: Tickets grouped by their current status (e.g., Done, Todo, In Progress).
@@ -90,12 +96,6 @@ To run the project locally, follow these steps:
    - **Status**, **User**, or **Priority**.
 3. Use the **Ordering** dropdown to sort tickets by **Priority** or **Title**.
 4. Interact with the board to view tickets dynamically arranged based on your preferences.
-
----
-
-## **Hosting**
-The project is hosted and accessible at:
-[**Quicksell Kanban Board Live Demo**](https://quicksell.vercel.com)
 
 ---
 
