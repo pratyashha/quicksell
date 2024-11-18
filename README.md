@@ -10,7 +10,7 @@ An interactive **Kanban board application** built using **ReactJS** that dynamic
 
 ## **Hosting**
 The project is hosted and accessible at:
-[**Quicksell Kanban Board Live Demo**](https://quicksell-tawny.vercel.app/)
+[**Quicksell Kanban Board Live Demo**](https://quicksell-pratyasha.vercel.app/)
 
 ---
 
