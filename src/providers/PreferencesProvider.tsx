@@ -1,6 +1,4 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
-import { ColumnType } from "../homepage/components/Column";
-import { CardType } from "../homepage/components/Card";
 
 // Define the types for Grouping and Ordering
 interface PreferencesContextType {
